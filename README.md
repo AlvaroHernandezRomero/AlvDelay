@@ -6,8 +6,10 @@ The Delay is very simple to use it have two slider for controling feedback gain 
 
 # Instructios for Building
 
--Install JUCE at least version 5
+-Install JUCE at least version 5.
+
 -Download this repository.
+
 -Open AlvDelay.sln in Visual Studio and build the project.
 
 # License
