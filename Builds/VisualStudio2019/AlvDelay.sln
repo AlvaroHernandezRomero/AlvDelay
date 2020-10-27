@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2019
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlvDelay - Standalone Plugin", "AlvDelay_StandalonePlugin.vcxproj", "{27F62F55-3BCC-00F0-0764-3E56E085588E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DE372AFB-87CC-014E-BA66-FDDB20DB52A4} = {DE372AFB-87CC-014E-BA66-FDDB20DB52A4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlvDelay - VST", "AlvDelay_VST.vcxproj", "{0DD87E14-B4DB-33F4-F1FF-7FAEFF83F372}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DE372AFB-87CC-014E-BA66-FDDB20DB52A4} = {DE372AFB-87CC-014E-BA66-FDDB20DB52A4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlvDelay - VST3", "AlvDelay_VST3.vcxproj", "{3738ECF8-D902-2E54-B04B-843F7F51DEE2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DE372AFB-87CC-014E-BA66-FDDB20DB52A4} = {DE372AFB-87CC-014E-BA66-FDDB20DB52A4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlvDelay - Shared Code", "AlvDelay_SharedCode.vcxproj", "{DE372AFB-87CC-014E-BA66-FDDB20DB52A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DD87E14-B4DB-33F4-F1FF-7FAEFF83F372}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DD87E14-B4DB-33F4-F1FF-7FAEFF83F372}.Debug|Win32.Build.0 = Debug|Win32
+		{0DD87E14-B4DB-33F4-F1FF-7FAEFF83F372}.Release|Win32.ActiveCfg = Release|Win32
+		{0DD87E14-B4DB-33F4-F1FF-7FAEFF83F372}.Release|Win32.Build.0 = Release|Win32
+		{3738ECF8-D902-2E54-B04B-843F7F51DEE2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3738ECF8-D902-2E54-B04B-843F7F51DEE2}.Debug|Win32.Build.0 = Debug|Win32
+		{3738ECF8-D902-2E54-B04B-843F7F51DEE2}.Release|Win32.ActiveCfg = Release|Win32
+		{3738ECF8-D902-2E54-B04B-843F7F51DEE2}.Release|Win32.Build.0 = Release|Win32
+		{27F62F55-3BCC-00F0-0764-3E56E085588E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27F62F55-3BCC-00F0-0764-3E56E085588E}.Debug|Win32.Build.0 = Debug|Win32
+		{27F62F55-3BCC-00F0-0764-3E56E085588E}.Release|Win32.ActiveCfg = Release|Win32
+		{27F62F55-3BCC-00F0-0764-3E56E085588E}.Release|Win32.Build.0 = Release|Win32
+		{DE372AFB-87CC-014E-BA66-FDDB20DB52A4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE372AFB-87CC-014E-BA66-FDDB20DB52A4}.Debug|Win32.Build.0 = Debug|Win32
+		{DE372AFB-87CC-014E-BA66-FDDB20DB52A4}.Release|Win32.ActiveCfg = Release|Win32
+		{DE372AFB-87CC-014E-BA66-FDDB20DB52A4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
