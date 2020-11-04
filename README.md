@@ -1,4 +1,6 @@
 # AlvDelay
+![](interfaz%20grafica.PNG)
+
 
 It is a Vst Delay made with Juce, which was developed as part of my final degree proyect.
 
