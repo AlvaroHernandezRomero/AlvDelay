@@ -4,7 +4,7 @@
 
 It is a Vst Delay made with Juce, which was developed as part of my final degree proyect.
 
-The Delay is very simple to use. It have two slider to controling feedback gain and delay time, moreover it have a Combobox to changing between two modes: Stereo delay and Ping-Pong delay. 
+The Delay is very simple to use. It have two slider to controlate feedback gain and delay time, moreover it have a Combobox to change between two modes: Stereo delay and Ping-Pong delay. 
 
 # Instructios for Building
 
